@@ -7,14 +7,14 @@
 }
 ::selection{
   color: #ffff;
-  background: rgb(142, 73, 232);
+  background: rgb(73, 232, 121);
 }
 body{
   width: 100%;
   height: 100vh;
   /* overflow: hidden; */
   padding: 10px;
-  background: linear-gradient(to bottom, #68ea8f 0%, #497BE8 100%);
+  background: linear-gradient(to bottom, #68ea8f 0%, #49e8d3 100%);
 }
 .todo {
   text-align: center;
@@ -49,7 +49,7 @@ body{
   transition: all 0.3s ease;
 }
 .inputField input:focus{
-  border-color: #8E49E8;
+  border-color: #38754a;
 }
 .inputField button{
   width: 50px;
@@ -59,7 +59,7 @@ body{
   margin-left: 5px;
   font-size: 21px;
   outline: none;
-  background: #8E49E8;
+  background: #56c076;
   cursor: pointer;
   border-radius: 3px;
   opacity: 0.6;
@@ -68,7 +68,7 @@ body{
 }
 .inputField button:hover,
 .footer button:hover{
-  background: #721ce3;
+  background: #38754a;
 }
 .inputField button.active{
   opacity: 1;
@@ -122,7 +122,7 @@ body{
   font-weight: 400;
   font-size: 16px;
   margin-left: 5px;
-  background: #8E49E8;
+  background: #56c076;
   cursor: pointer;
   user-select: none;
   opacity: 0.6;
